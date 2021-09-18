@@ -10,9 +10,7 @@ def main():
     # this function calculates the surface area and volume of a cube
 
     # input
-    side_length = int(
-        input("Enter length of the side length of your cube (cm): ")
-    )
+    side_length = int(input("Enter the side length of your cube (cm): "))
 
     # process
     surface_area = 6 * side_length ** 2
